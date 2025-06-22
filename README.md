@@ -77,7 +77,8 @@ The full interactive dashboard is published on Power BI destop and moblie.
 ```bash
 📂 /notebooks/         # Spark processing notebooks in Azure Synapse
 📂 /pipeline/          # Synapse pipeline templates 
-📂 /powerbi/           # Power BI .pbix files and screenshots
+📂 /powerbi/           # Power BI .pbix files 
+📂 /data/           # Power BI .pbix files and screenshots
 📄 README.md           # Project overview
 
 
