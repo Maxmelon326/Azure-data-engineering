@@ -37,16 +37,20 @@ The final structured dataset includes:
 ## 📊 Power BI Dashboard Highlights
 
 Key analyses include:
-- *: Content structural features by type (genres, language, country, etc.)
-- *: Trends over time, duration, content rating, and seasonal release patterns
-- *: Evaluation of content release delay (release year vs. date added)
+- : Content structural features by type (genres, language, country, etc.)
+- : Trends over time, duration, content rating, and seasonal release patterns
+- : Evaluation of content release delay (release year vs. date added)
 - Card KPIs: Most frequent genres, countries, and languages
 
 ## 📈 Sample Visualization
 
-_The full interactive dashboard is published on Power BI._
+The full interactive dashboard is published on Power BI destop and moblie.
+![0c2f3408be4de466ed38abb381f8734](https://github.com/user-attachments/assets/f72d8712-98b7-4b36-8857-c5c3d2396db5)
+![0c2f3408be4de466ed38abb381f8734](https://github.com/user-attachments/assets/0e7fbe61-a990-4ad3-b86d-686cdf0d6d97)
 
-![Dashboard Screenshot](images/dashboard_sample.png)
+
+
+
 
 ## 🚀 How to Reproduce
 
