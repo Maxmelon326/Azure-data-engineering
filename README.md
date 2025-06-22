@@ -36,9 +36,9 @@ The final structured dataset includes:
 ## 📊 Power BI Dashboard Highlights
 
 Key analyses include:
-- : Content structural features by type (genres, language, country, etc.)
-- : Trends over time, duration, content rating, and seasonal release patterns
-- : Evaluation of content release delay (release year vs. date added)
+- Content structural features by type (genres, language, country, etc.)
+- Trends over time, duration, content rating, and seasonal release patterns
+- Evaluation of content release delay (release year vs. date added)
 - Card KPIs: Most frequent genres, countries, and languages
 
 ## 📈 Sample Visualization
@@ -62,11 +62,11 @@ The full interactive dashboard is published on Power BI destop and moblie.
 
 <img width="500" alt="pipeline" src="https://github.com/user-attachments/assets/ef8351ee-9c55-4682-9e15-2171618fb402" />
 
-- Azure trigger (schedual the subscription refresh)
+- Azure trigger (schedule the subscription refresh)
 
 <img width="500" alt="trigger" src="https://github.com/user-attachments/assets/50d12836-d7dc-41ff-aef4-e9273580cbf5" />
 
-- Link Azure Synapse to PowerBI(If PowerBi embedded is not supported in Azure account)
+- Link Azure Synapse to PowerBI (If PowerBi embedded is not supported in Azure account)
 <img src="https://github.com/user-attachments/assets/1ffe46e5-6d38-4602-95a7-aa4ddefc0d11" width="500"/>
 
 - Refresh PowerBI to update the recent data
@@ -80,7 +80,3 @@ The full interactive dashboard is published on Power BI destop and moblie.
 📂 /powerbi/           # Power BI .pbix files 
 📂 /data/           # Raw netflix movie and TV data
 📄 README.md           # Project overview
-
-
-
-
