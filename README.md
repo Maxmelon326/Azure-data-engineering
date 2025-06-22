@@ -1,77 +1,58 @@
 # Azure-data-engineering
-# 🎬 Netflix Data Analysis with Azure Synapse and Power BI
+# Netflix Data Analysis with Azure Synapse and Power BI
 
-This project demonstrates how to leverage **Azure Synapse Analytics**, **Spark Notebooks**, and **Power BI** to build a structured data pipeline and support visual analysis on Netflix movie and TV show content data.
+This project demonstrates how to build a scalable data analytics pipeline using **Azure Synapse Analytics** and **Power BI**. The goal is to analyze Netflix's movie and TV show metadata to uncover insights on content distribution, structure, and viewer trends.
 
----
+## 🔍 Project Overview
 
-## 📌 Project Overview
+Using detailed Netflix movie and TV show datasets, we:
+- Cleaned and transformed raw CSV data in **Synapse Notebooks with PySpark**
+- Stored structured data in **Azure Data Lake Storage Gen2 (ADLS)**
+- Created a **dedicated SQL Pool table** (`analytics.a1_structural_summary`) to store curated fields for BI
+- Built a Power BI dashboard for visual exploration and business analysis
 
-This project focuses on collecting and preparing metadata about Netflix's content, specifically movies and TV shows, and preparing it for further analysis in **Power BI**. The dataset includes structured fields such as:
+## 📌 Data Columns in Final Table
 
+The final structured dataset includes:
 - `show_id`
-- `type` (Movie / TV Show)
-- `title`
 - `country`
-- `release_year`
-- `date_added`
-- `duration`
 - `rating`
+- `duration`
 - `genres`
 - `language`
-- `popularity`, `vote_count`, `vote_average`
+- `release_year`
+- `date_added`
+- `popularity`
+- `platform_type` (Movie / TV Show)
 
-
----
-
-## ⚙️ Technologies Used
+## 🧱 Azure Components Used
 
 - **Azure Synapse Analytics**
-  - Data Lake Storage Gen2 for raw data
-  - Spark Pools for data processing
-  - Dedicated SQL Pool for structured storage
-  - Data Pipelines for automation
+  - Spark Notebooks
+  - Dedicated SQL Pool
+  - Data pipeline (Copy Data Activity)
+- **Azure Data Lake Storage Gen2**
+- **Power BI** for reporting and dashboards
 
-- **Power BI**
-  - Direct connection to Azure Synapse Dedicated SQL Pool
-  - Interactive dashboard development and publishing
+## 📊 Power BI Dashboard Highlights
 
----
+Key analyses include:
+- *: Content structural features by type (genres, language, country, etc.)
+- *: Trends over time, duration, content rating, and seasonal release patterns
+- *: Evaluation of content release delay (release year vs. date added)
+- Card KPIs: Most frequent genres, countries, and languages
 
-## ✅ Current Progress
+## 📈 Sample Visualization
 
-- ✔️ Loaded raw CSV data into Azure Data Lake
-- ✔️ Processed and cleaned using PySpark in Synapse Notebooks
-- ✔️ Stored structured results into `analytics.a1_structural_summary` table in Synapse Dedicated SQL Pool
-- ✔️ Connected Synapse SQL Pool to **Power BI Desktop**
-- ❗ Visual analysis ongoing in Power BI (to be published soon)
+_The full interactive dashboard is published on Power BI._
 
----
+![Dashboard Screenshot](images/dashboard_sample.png)
 
-## 📈 Next Steps
+## 🚀 How to Reproduce
 
-- [ ] Complete exploratory data visualizations in Power BI
-- [ ] Publish interactive dashboard
-- [ ] Expand analysis to include other research questions (e.g., global trends, genre evolution, content release timing)
-
----
-
-## 📊 Example Power BI Metrics (Planned)
-
-- Content volume by year and type
-- Genre distribution by country
-- Ratings vs. popularity scatterplots
-- Duration trends over time
-- Language diversity and global expansion
-
----
-
-## 📁 Folder Structure
-
-```bash
-📂 /notebooks/         # Spark processing notebooks in Azure Synapse
-📂 /pipeline/          # Synapse pipeline templates (if any)
-📂 /powerbi/           # Power BI .pbix files or screenshots
-📄 README.md           # Project overview
-
+1. Upload raw CSVs to ADLS
+2. Use Synapse Notebooks to clean & write data to staging
+3. Run COPY INTO from staging to SQL Pool table
+4. Connect Power BI to dedicated SQL Pool
+5. Build visualizations on top of `analytics.a1_structural_summary`
 
