@@ -1,0 +1,99 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "creditanalysis"
+        },
+        "location": {
+            "value": "australiaeast"
+        },
+        "defaultDataLakeStorageAccountName": {
+            "value": "creditanalysis"
+        },
+        "defaultDataLakeStorageFilesystemName": {
+            "value": "creditanalysis"
+        },
+        "sqlAdministratorLogin": {
+            "value": "sqladminuser"
+        },
+        "sqlAdministratorLoginPassword": {
+            "value": null
+        },
+        "setWorkspaceIdentityRbacOnStorageAccount": {
+            "value": true
+        },
+        "createManagedPrivateEndpoint": {
+            "value": false
+        },
+        "defaultAdlsGen2AccountResourceId": {
+            "value": "/subscriptions/e5fe9e64-dcbe-4d82-a828-639397eb3ab2/resourceGroups/portfolio/providers/Microsoft.Storage/storageAccounts/creditanalysis"
+        },
+        "azureADOnlyAuthentication": {
+            "value": false
+        },
+        "allowAllConnections": {
+            "value": true
+        },
+        "managedVirtualNetwork": {
+            "value": ""
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "storageSubscriptionID": {
+            "value": "e5fe9e64-dcbe-4d82-a828-639397eb3ab2"
+        },
+        "storageResourceGroupName": {
+            "value": "portfolio"
+        },
+        "storageLocation": {
+            "value": "australiaeast"
+        },
+        "storageRoleUniqueId": {
+            "value": "da18f070-0016-4780-9f92-6589e538d114"
+        },
+        "isNewStorageAccount": {
+            "value": true
+        },
+        "isNewFileSystemOnly": {
+            "value": false
+        },
+        "adlaResourceId": {
+            "value": ""
+        },
+        "managedResourceGroupName": {
+            "value": ""
+        },
+        "storageAccessTier": {
+            "value": "Hot"
+        },
+        "storageAccountType": {
+            "value": "Standard_RAGRS"
+        },
+        "storageSupportsHttpsTrafficOnly": {
+            "value": true
+        },
+        "storageKind": {
+            "value": "StorageV2"
+        },
+        "minimumTlsVersion": {
+            "value": "TLS1_2"
+        },
+        "storageIsHnsEnabled": {
+            "value": true
+        },
+        "userObjectId": {
+            "value": "0eeea24a-0e4c-4232-8a94-7c78c6f9c170"
+        },
+        "setSbdcRbacOnStorageAccount": {
+            "value": true
+        },
+        "setWorkspaceMsiByPassOnStorageAccount": {
+            "value": false
+        },
+        "workspaceStorageAccountProperties": {
+            "value": {}
+        }
+    }
+}
