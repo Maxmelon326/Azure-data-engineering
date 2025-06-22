@@ -1,4 +1,3 @@
-# Azure-data-engineering
 # Netflix Data Analysis with Azure Synapse and Power BI
 
 This project demonstrates how to build a scalable data analytics pipeline using **Azure Synapse Analytics** and **Power BI**. The goal is to analyze Netflix's movie and TV show metadata to uncover insights on content distribution, structure, and viewer trends.
@@ -45,11 +44,10 @@ Key analyses include:
 ## 📈 Sample Visualization
 
 The full interactive dashboard is published on Power BI destop and moblie.
-![0c2f3408be4de466ed38abb381f8734](https://github.com/user-attachments/assets/f72d8712-98b7-4b36-8857-c5c3d2396db5)
-![0c2f3408be4de466ed38abb381f8734](https://github.com/user-attachments/assets/0e7fbe61-a990-4ad3-b86d-686cdf0d6d97)
 
 
-
+<img src="https://github.com/user-attachments/assets/e083c039-7f18-473e-8956-56550aa5e9f5" width="500"/>
+<img src="https://github.com/user-attachments/assets/0e7fbe61-a990-4ad3-b86d-686cdf0d6d97" width="500"/>
 
 
 ## 🚀 How to Reproduce
@@ -59,4 +57,29 @@ The full interactive dashboard is published on Power BI destop and moblie.
 3. Run COPY INTO from staging to SQL Pool table
 4. Connect Power BI to dedicated SQL Pool
 5. Build visualizations on top of `analytics.a1_structural_summary`
+6. There are some guide images for intrstruting setting on Azure and PowerBI as follows:
+- Azure Pipeline
+
+<img width="500" alt="pipeline" src="https://github.com/user-attachments/assets/ef8351ee-9c55-4682-9e15-2171618fb402" />
+
+- Azure trigger (schedual the subscription refresh)
+
+<img width="500" alt="trigger" src="https://github.com/user-attachments/assets/50d12836-d7dc-41ff-aef4-e9273580cbf5" />
+
+- Link Azure Synapse to PowerBI(If PowerBi embedded is not supported in Azure account)
+<img src="https://github.com/user-attachments/assets/1ffe46e5-6d38-4602-95a7-aa4ddefc0d11" width="500"/>
+
+- Refresh PowerBI to update the recent data
+<img width="500" alt="refresh" src="https://github.com/user-attachments/assets/03b941a1-424d-4fbe-9471-615d936442c4" />
+
+## 📁 Folder Structure
+
+```bash
+📂 /notebooks/         # Spark processing notebooks in Azure Synapse
+📂 /pipeline/          # Synapse pipeline templates 
+📂 /powerbi/           # Power BI .pbix files and screenshots
+📄 README.md           # Project overview
+
+
+
 
