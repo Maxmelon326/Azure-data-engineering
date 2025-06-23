@@ -47,7 +47,7 @@ The full interactive dashboard is published on Power BI destop and moblie.
 
 
 <img src="https://github.com/user-attachments/assets/e083c039-7f18-473e-8956-56550aa5e9f5" width="500"/>
-<img width="450"  src="https://github.com/user-attachments/assets/39c94b52-04db-438f-9e37-4cfc30e67704" />
+<img width="500"  src="https://github.com/user-attachments/assets/39c94b52-04db-438f-9e37-4cfc30e67704" />
 
 
 
