@@ -47,7 +47,8 @@ The full interactive dashboard is published on Power BI destop and moblie.
 
 
 <img src="https://github.com/user-attachments/assets/e083c039-7f18-473e-8956-56550aa5e9f5" width="500"/>
-<img src="https://github.com/user-attachments/assets/0e7fbe61-a990-4ad3-b86d-686cdf0d6d97" width="500"/>
+<img width="450"  src="https://github.com/user-attachments/assets/39c94b52-04db-438f-9e37-4cfc30e67704" />
+
 
 
 ## 🚀 How to Reproduce
@@ -70,7 +71,8 @@ The full interactive dashboard is published on Power BI destop and moblie.
 <img src="https://github.com/user-attachments/assets/1ffe46e5-6d38-4602-95a7-aa4ddefc0d11" width="500"/>
 
 - Refresh PowerBI to update the recent data
-<img width="500" alt="refresh" src="https://github.com/user-attachments/assets/03b941a1-424d-4fbe-9471-615d936442c4" />
+<img width="500" alt="refresh" src="https://github.com/user-attachments/assets/802e9a98-1aae-4343-bc7d-33fc9ac61fb1" />
+
 
 ## 📁 Folder Structure
 
